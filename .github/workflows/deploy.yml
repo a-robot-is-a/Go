@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Repository auschecken
+      - name: Repository auschecken
         uses: actions/checkout@v3
 
       - name: 🛠️ Node installieren
