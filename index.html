@@ -39,7 +39,8 @@
     let lastSeen = 0;
 
     function ladeSVG() {
-      const url = `${serverURL}?v=${Date.now()}`;
+      //const url = `${serverURL}?v=${Date.now()}`;
+      const url = 'https://simhost-0d8e20bef03d618f9.agni.secondlife.io:12043/cap/af5647db-7fda-7201-c16a-12f8f4935021'?v=${Date.now()}`;
 
       fetch(url)
         .then(response => {
